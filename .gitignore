@@ -9,4 +9,6 @@ receiver/rok
 receiver/sk
 server/*.ct
 server/*.ctr
-
+server/*.pk
+server/*.rek
+server/*.rok

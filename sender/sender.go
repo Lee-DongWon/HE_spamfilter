@@ -76,6 +76,9 @@ func main() {
 	scanner := bufio.NewScanner(data)
 	plain_scanner := bufio.NewScanner(plain_data)
 
+	const maxCapacity = 131072
+	plain_scanner.Buffer(make([]byte, maxCapacity), maxCapacity)
+
 	lineNum := 0
 
 	logSlots := context.params.LogSlots()

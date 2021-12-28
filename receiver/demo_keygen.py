@@ -1,6 +1,7 @@
 import os
 
-dest = "localhost:8080"
+dest = "147.46.78.26:8080"
+#dest = "localhost:8080"
 
 os.system('curl {}/flush'.format(dest))
 

@@ -1,7 +1,8 @@
 import os
 import random
 
-dest = "localhost:8080"
+dest = "147.46.78.26:8080"
+#dest = "localhost:8080"
 len_inbox = 5
 
 os.system("curl {}/1/pk --output 1.pk".format(dest))
